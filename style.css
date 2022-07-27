@@ -159,7 +159,7 @@ nav ul li ul li:hover{
     font-weight: bold;
 }
 
-.active{
+#strategie .active, #investissements .active{
     font-weight: bold;
     box-shadow: 0px 10px 0px 0px red;
 }

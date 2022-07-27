@@ -1,0 +1,211 @@
+:root{
+    --mainBlue : rgb(37, 57, 105);
+    --mainRed : rgb(255, 0, 0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: var(--mainBlue);
+}
+
+
+/************************************************
+****************** G L O B A L ******************
+************************************************/
+
+a, a:hover{
+    color: var(--mainBlue);
+    text-decoration: none;
+}
+
+/************************************************
+****************** H E A D E R ******************
+************************************************/
+
+nav{
+    border-bottom: 1px solid rgba(0, 58, 120, .75);
+    box-shadow: 0px 0px 10px rgba(0, 58, 120, .75);
+}
+
+#imgLogo{
+    position: absolute;
+}
+
+#imgLogo img{
+    width: 25%;
+}
+
+nav ul li span{
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+nav ul li ul li{
+    padding: 10px;
+}
+
+nav ul li ul li:hover{
+    background-color: var(--mainBlue);
+    color: white;
+}
+
+.fa-angle-left, .fa-angle-right{
+    font-size: 3rem;
+}
+
+.bgBlue{
+    background-color: var(--mainBlue);
+}
+
+.colorWhite{
+    color: white;
+}
+
+
+/************************************************
+***************** A C C U E I L *****************
+************************************************/
+
+
+#accueil #bgVideo{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    margin: auto;
+}
+
+#accueil ul{
+    position: relative;
+    z-index: 10;
+}
+
+#accueil main{
+    width: 100% !important;
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, .6);
+}
+
+#accueil p{
+    z-index: 1000;
+    color: white;
+    background-color: var(--mainBlue);
+    /* box-shadow: 10px 10px 0 var(--mainRed); */
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: 35%;
+    text-align: center;
+}
+
+/************************************************
+**************** A   P R O P O S ****************
+************************************************/
+
+#aPropos #blocPropos{
+    box-shadow: 10px 10px 0px #FF0000;
+}
+
+#aPropos #carouselBottom li {
+    width: 13%;
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    opacity: 0;
+    transition: 1s opacity;
+}
+
+#aPropos #carouselBottom .active {
+    opacity: 1;
+}
+
+/************************************************
+*********** T R A C K   R E C O R D S ***********
+************************************************/
+
+#trackRecord table thead{
+    box-shadow: 10px -10px var(--mainRed);
+}
+
+#trackRecord table td{
+    border-bottom: 1px dashed var(--mainBlue);
+}
+
+#trackRecord table tr:hover td{
+    background-color: rgba(37, 57, 105, .75);
+    color: white;
+}
+
+/************************************************
+*************** S T R A T E G I E ***************
+************************************************/
+
+
+#strategie table tbody > tr td{
+    font-size: 1.2rem;
+    border: 1px solid white;
+}
+
+#strategie .subTitle{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.active{
+    font-weight: bold;
+    box-shadow: 0px 10px 0px 0px red;
+}
+
+#strategie table{
+    table-layout: fixed;
+    width: 16%;
+}
+
+/************************************************
+********* I N V E S T I S S E M E N T S *********
+************************************************/
+
+#investissements .title{
+    border: 1px solid white;
+    
+}
+#investissements div img{
+    width: 75%;
+    background-color: white;
+    border-radius: 40%;
+}
+
+#investissements .impaire{
+    background-color: var(--mainBlue);
+}
+
+#investissements .recap{
+    font-weight: bold;
+}
+
+#investissements a span{
+    text-decoration: underline;
+}
+
+/************************************************
+****************** F O O T E R ******************
+************************************************/
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;;
+    background-color: var(--mainBlue);
+}
+
+footer p, footer p b{
+    color: white;
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivalto | Nos track records</title>
+    
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap" rel="stylesheet">
+    
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="p-3">
+            <ul class="nav">
+                <a href="./index.html" id="imgLogo">
+                    <img src="img/logos/Vivalto.png" alt="" class="align-self-center">
+                </a>
+                <div class="d-md-flex justify-content-around col-4 mx-auto">
+                    <li class="dropdown align-self-center">
+                        <span class="dropdown-toggle" data-toggle="dropdown">Présentation</span>
+                        <ul class="dropdown-menu">
+                            <a href="./aPropos.html">
+                                <li>A propos de Vivalto</li>
+                            </a>
+                            <a href="./histoire.html">
+                                <li>Notre hitoire</li>
+                            </a>
+                            <a href="./equipe.html">
+                                <li>Notre équipe</li>
+                            </a>
+                        </ul>
+                    </li>
+                    <li class="dropdown align-self-center">
+                        <span class="dropdown-toggle" data-toggle="dropdown">Investissements</span>
+                        <ul class="sousMenu dropdown-menu">
+                            <a href="./investissements.html">
+                                <li class="nav-item">Nos investissements</li>
+                            </a>
+                            <a href="./strategie.html">
+                                <li class="nav-item">Notre stratégie d'investissement</li>
+                            </a>
+                        </ul>
+                    </li>
+                    <li class="dropdown align-self-center">
+                        <span class="dropdown-toggle" data-toggle="dropdown">Bla bla bla</span>
+                        <ul class="sousMenu dropdown-menu">
+                            <a href="./valeur.html">
+                                <li class="nav-item">Nos valeurs</li>
+                            </a>
+                            <a href="trackRecord.html">
+                                <li class="nav-item">Notre track record</li>
+                            </a>
+                            <a href="./expertise.html">
+                                <li class="nav-item">Notre expertise</li>
+                            </a>
+                            <a href="./valeurAjoutee.html">
+                                <li class="nav-item">Notre valeur ajoutée dans nos participations historiques</li>
+                            </a>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="w-75 mx-auto">
+        <div id="trackRecord">
+            <h1 class="text-center my-5">Notre track record</h1>
+            
+            <p class="text-center">Vivalto dispose d’un track record de création de valeur robuste pour les investisseurs l’ayant accompagnés (la création de valeur de Vivalto est plus importante du fait de management packages mis en place au niveau des projets).</p>
+            
+            <table class="text-center w-100 m-4">
+                <thead>
+                    <tr class="bgBlue">
+                        <th class="colorWhite p-3">Entreprise</th>
+                        <th class="colorWhite p-3">Pays</th>
+                        <th class="colorWhite p-3">Secteur</th>
+                        <th class="colorWhite p-3">Date d'entrée</th>
+                        <th class="colorWhite p-3">Date de sortie</th>
+                        <th class="colorWhite p-3">Multiple</th>
+                        <th class="colorWhite p-3">TRI</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="p-2">Vivalto Santé 1</td>
+                        <td class="p-2">France</td>
+                        <td class="p-2">Hospitalisation privée</td>
+                        <td class="p-2">09/12/2009</td>
+                        <td class="p-2">07/01/2016</td>
+                        <td class="p-2">3.4x</td>
+                        <td class="p-2">23.0%</td>
+                    </tr>
+                    <tr>
+                        <td class="p-2">Vivalto Home 1</td>
+                        <td class="p-2">Belgique</td>
+                        <td class="p-2">Maisons de retraite</td>
+                        <td class="p-2">10/06/2009</td>
+                        <td class="p-2">26/07/2016</td>
+                        <td class="p-2">4.8x</td>
+                        <td class="p-2">34.0%</td>
+                    </tr>
+                    <tr>
+                        <td class="p-2">Vivalto Vie 1</td>
+                        <td class="p-2">France</td>
+                        <td class="p-2">Maisons de retraite</td>
+                        <td class="p-2">29/01/2015</td>
+                        <td class="p-2">30/03/2020</td>
+                        <td class="p-2">3.0x</td>
+                        <td class="p-2">27.0%</td>
+                    </tr>
+                    <tr>
+                        <td class="p-2">Vivalto Santé 2</td>
+                        <td class="p-2">France</td>
+                        <td class="p-2">Hospitalisation privée</td>
+                        <td class="p-2">07/01/2016</td>
+                        <td class="p-2">31/10/2021</td>
+                        <td class="p-2">2.5x</td>
+                        <td class="p-2">17.3%</td>
+                    </tr>
+                    <tr>
+                        <td class="p-2">Vivalto Home 2</td>
+                        <td class="p-2">Belgique</td>
+                        <td class="p-2">Maisons de retraite</td>
+                        <td class="p-2">26/07/2016</td>
+                        <td class="p-2">31/01/2022</td>
+                        <td class="p-2">2.4x</td>
+                        <td class="p-2">20.6%</td>
+                    </tr>
+                    <tr>
+                        <td class="p-2">Vivalto Vie 2</td>
+                        <td class="p-2">France</td>
+                        <td class="p-2">Maisons de retraite</td>
+                        <td class="p-2">30/03/2020</td>
+                        <td class="p-2">31/01/2022</td>
+                        <td class="p-2">1.4x</td>
+                        <td class="p-2">18.0%</td>
+                    </tr>
+                    <tr>
+                        <td class="p-2">PMG Vivalrec</td>
+                        <td class="p-2">France</td>
+                        <td class="p-2">Recyclage plastiques</td>
+                        <td class="p-2">24/07/2013</td>
+                        <td class="p-2">31/01/2017</td>
+                        <td class="p-2">2.5x</td>
+                        <td class="p-2">27.0%</td>
+                    </tr>
+                    <tr>
+                        <td class="p-2">Domiserve</td>
+                        <td class="p-2">France</td>
+                        <td class="p-2">CESU préfinancés</td>
+                        <td class="p-2">31/10/2013</td>
+                        <td class="p-2">31/03/2017</td>
+                        <td class="p-2">11.0x</td>
+                        <td class="p-2">102.0%</td>
+                    </tr>
+                    <tr>
+                        <td class="p-2">Homeperf</td>
+                        <td class="p-2">France</td>
+                        <td class="p-2">Soins à domicile</td>
+                        <td class="p-2">25/09/2015</td>
+                        <td class="p-2">15/05/2020</td>
+                        <td class="p-2">3.1x</td>
+                        <td class="p-2">28.0%</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p class="mt-4"><i>* Les multiples et TRI présentés sont post rétrocessions de valeur liées aux management packages qui avaient été mis en place dans chacun des groupes.</i></p>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="d-flex">
+            <div class="col-5 mx-auto align-self-center">
+                <p><b>VIVALTO GROUPE</b></p>
+                <p>61 avenue Victor Hugo<br>75116 Paris<br>France</p>
+            </div>
+            <div class="col-5 mx-auto align-self-center text-right">
+                <p style="text-decoration: underline;">Nous contacter</p>
+                <div class="d-flex">
+                    <div class="col-6">
+                        <p><b>Guillaume CAILLE</b><br>Email&nbsp;: guillaume.caille@vivalto-gp.com<br>Téléphone&nbsp;: +33 6 20 31 49 43</p>
+                    </div>
+                    <div class="col-6">
+                        <p><b>Sébastien MOISAN</b><br>Email&nbsp;: Sebastien.moisan@vivalto-gp.com<br>Téléphone&nbsp;: +33 6 23 13 14 67</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+<script src="script.js"></script>

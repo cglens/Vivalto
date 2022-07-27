@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivalto | Nos investissements</title>
+    
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap" rel="stylesheet">
+    
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="p-3">
+            <ul class="nav">
+                <a href="./index.html" id="imgLogo">
+                    <img src="img/logos/Vivalto.png" alt="" class="align-self-center">
+                </a>
+                <div class="d-md-flex justify-content-around col-4 mx-auto">
+                    <li class="dropdown align-self-center">
+                        <span class="dropdown-toggle" data-toggle="dropdown">Présentation</span>
+                        <ul class="dropdown-menu">
+                            <a href="./aPropos.html">
+                                <li>A propos de Vivalto</li>
+                            </a>
+                            <a href="./histoire.html">
+                                <li>Notre hitoire</li>
+                            </a>
+                            <a href="./equipe.html">
+                                <li>Notre équipe</li>
+                            </a>
+                        </ul>
+                    </li>
+                    <li class="dropdown align-self-center">
+                        <span class="dropdown-toggle" data-toggle="dropdown">Investissements</span>
+                        <ul class="sousMenu dropdown-menu">
+                            <a href="./investissements.html">
+                                <li class="nav-item">Nos investissements</li>
+                            </a>
+                            <a href="./strategie.html">
+                                <li class="nav-item">Notre stratégie d'investissement</li>
+                            </a>
+                        </ul>
+                    </li>
+                    <li class="dropdown align-self-center">
+                        <span class="dropdown-toggle" data-toggle="dropdown">Bla bla bla</span>
+                        <ul class="sousMenu dropdown-menu">
+                            <a href="./valeur.html">
+                                <li class="nav-item">Nos valeurs</li>
+                            </a>
+                            <a href="trackRecord.html">
+                                <li class="nav-item">Notre track record</li>
+                            </a>
+                            <a href="./expertise.html">
+                                <li class="nav-item">Notre expertise</li>
+                            </a>
+                            <a href="./valeurAjoutee.html">
+                                <li class="nav-item">Notre valeur ajoutée dans nos participations historiques</li>
+                            </a>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="w-75 mx-auto">
+        <div id="investissements">
+            <h1 class="text-center my-5">Nos investissements</h1>
+            
+            <div>
+                <div class="d-flex text-center">
+                    <div class="col-4 title p-3 bgBlue active" data-titre="filiales">
+                        <p class="colorWhite">Liste des filiales contrôlées par Vivalto</p>
+                    </div>
+                    <div class="col-4 title p-3 bgBlue" data-titre="lbo">
+                        <p class="colorWhite">Liste des participations minoritaires de Vivalto dans des LBO sur des entités matures</p>
+                    </div>
+                    <div class="col-4 title p-3 bgBlue" data-titre="sinequanone">
+                        <p class="colorWhite">Liste des participations minoritaires de Sinequanon</p>
+                    </div>
+                </div>
+                
+                <div class="my-4 w-100">
+                    <div class="d-flex align-items-center paire">
+                        <div class="col-2 text-center">
+                            <img src="img/logos/investissements/Vivalto_Partners.jpg" alt="">
+                        </div>
+                        <div class="col-10">
+                            <p class="recap p-2">2021 | 700m€ levés<br>Fonds dédié à la sant</p>
+                            <ul class="px-5">
+                                <li>Vivalto Partners est un fonds créé et détenu majoritairement par Vivalto ayant pour vocation d’investir dans la santé en France et Europe.</li>
+                                <li>Sa première participation majoritaire est le groupe Vivalto Santé depuis novembre 2021.</li>
+                            </ul>
+                            <p class="text-center"><a href="https://www.vivaltopartners.com/"><span>Vivalto Partners</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center impaire">
+                        <div class="col-10">
+                            <p class="recap colorWhite p-2">2009 | 1mds€ de CA<br>50 cliniques | 10,700 employés | 2,800 praticiens | 7,000 lits</p>
+                            <ul class="px-5">
+                                <li class="colorWhite">Vivalto Santé est le 3ème opérateur français de l’hospitalisation privée, créé par Vivalto en 2009 à l’occasion de l’acquisition de 3 cliniques en Bretagne. Il compte désormais 50 cliniques et poursuit sa croissance en France et initie sa croissance à l’international</li>
+                                <li class="colorWhite">Vivalto Santé est la première entreprise à mission du secteur et compte toujours à son capital environ 1 000 praticiens ce qui lui confère un modèle unique de gouvernance partagée le différenciant de ses concurrents.</li>
+                            </ul>
+                            <p class="text-center"><a href="https://www.vivalto-sante.com/"><span class=" colorWhite">Vivalto Santé</span> <i class="fa-solid fa-arrow-up-right-from-square colorWhite"></i></a></p>
+                        </div>
+                        <div class="col-2 text-center">
+                            <img src="img/logos/investissements/Vivalto_Sante.png" alt="">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center paire">
+                        <div class="col-2 text-center">
+                            <img src="img/logos/investissements/Bloc1.png" alt="">
+                        </div>
+                        <div class="col-10">
+                            <p class="recap p-2">2009 | 300m€ de CA<br>80 EHPADs | 5,000 employés | 8 000 lits</p>
+                            <ul class="px-5">
+                                <li>Vivalto Vie et ses filiales (Vivalto Home, Solimar, Grace) est un groupe d’hébergement de personnes âgées dépendantes basé dans 4 pays (France, Belgique, Espagne, Irlande) comptant près de 80 établissements / 8,000 lits dans des maisons au positionnement proche des établissements publics.</li>
+                                <li>Vivalto Vie est en train de passer entreprise à mission</li>
+                            </ul>
+                            <p class="text-center"><a href="http://www.vivaltohome.com"><span>Vivalto Home</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a> | <a href="https://www.gracehealthcare.ie"> <span>Grace Health Care</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a> | <a href="https://www.solimar.es/"> <span>Solimar</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center impaire">
+                        <div class="col-10">
+                            <p class="recap colorWhite p-2">2019 | 30m$ de CA<br>3 EHPADs | 300+ employés | 650 lits</p>
+                            <ul class="px-5">
+                                <li class="colorWhite">Maisons Vivalto est un groupe créée par Vivalto au Canada en 2019 à l’occasion du rachat par Vivalto, CIC Capital et un entrepreneur local du groupe Les Floralies (2 maisons de retraite) opérant 500+ lits de soins longue durée à Montréal.</li>
+                                <li class="colorWhite">Une autre acquisition est en cours de finalisation, et de nombreuses acquisitions sont à l’étude</li>
+                            </ul>
+                            <p class="text-center"><a href="https://residencesfloralies.qc.ca/"><span class="colorWhite">Résidences Florialies</span> <i class="fa-solid fa-arrow-up-right-from-square colorWhite"></i></a></p>
+                        </div>
+                        <div class="col-2 text-center">
+                            <img src="img/logos/investissements/Bloc3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="d-flex">
+                <div class="col-5 mx-auto align-self-center">
+                    <p><b>VIVALTO GROUPE</b></p>
+                    <p>61 avenue Victor Hugo<br>75116 Paris<br>France</p>
+                </div>
+                <div class="col-5 mx-auto align-self-center text-right">
+                    <p style="text-decoration: underline;">Nous contacter</p>
+                    <div class="d-flex">
+                        <div class="col-6">
+                            <p><b>Guillaume CAILLE</b><br>Email&nbsp;: guillaume.caille@vivalto-gp.com<br>Téléphone&nbsp;: +33 6 20 31 49 43</p>
+                        </div>
+                        <div class="col-6">
+                            <p><b>Sébastien MOISAN</b><br>Email&nbsp;: Sebastien.moisan@vivalto-gp.com<br>Téléphone&nbsp;: +33 6 23 13 14 67</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>
+    
+    <script src="script.js"></script>
